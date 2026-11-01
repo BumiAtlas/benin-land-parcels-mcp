@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.BumiAtlas/benin-land-parcels",
+  "title": "Benin Land Parcels (ANDF Cadastre · Parcelles)",
+  "description": "Beninese ANDF cadastral parcels by NUP, titre foncier or coordinates, with declared zones.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/BumiAtlas/benin-land-parcels-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://bumiatlas.com/mcp-docs/benin",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bumiatlas.com/mcp/benin"
+    }
+  ]
+}
